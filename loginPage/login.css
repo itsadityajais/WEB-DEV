@@ -1,0 +1,124 @@
+.logo {
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.login-section {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border-color: red;
+  border-radius: 18px;
+  margin-top: 30px;
+  margin-left: 36%;
+  margin-right: 38%;
+  padding-bottom: 3%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+h4 {
+  margin-left: 10%;
+  font-size: 16px;
+}
+p {
+  margin-left: 10%;
+}
+input {
+  font-size: 14px;
+  margin-left: 10%;
+  padding-left: 12px;
+  height: 50px;
+  width: 400px;
+}
+.signin {
+  /* background-color: aqua; */
+  display: flex;
+}
+.password {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  padding-bottom: 0px;
+}
+
+.signin-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #04aa6d;
+  height: 50px;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-;
+}
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #1877f2;
+  height: 50px;
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-;
+}
+.button3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #2f2f2f;
+  border-radius: 500px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-;
+}
+.button4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #2f2f2f;
+  border-radius: 500px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-;
+}
+.loginlogo {
+  height: 25px;
+  padding-right: 8px;
+}

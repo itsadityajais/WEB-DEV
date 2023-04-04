@@ -1,0 +1,11 @@
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.navigation-section {
+  list-style-type: lower-greek;
+  margin: 0;
+  padding: 0;
+}
