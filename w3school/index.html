@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>w3schools.com</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      $(function () {
+        $("#ads-section-wrapper").load("Components/AdsSection/index.html");
+        $("#navigation-bar-wrapper").load(
+          "Components/NavigationBar/index.html"
+        );
+        $("#slide-bar-wrapper").load("Components/Slidebar/index.html");
+        $("#topic-content-wrapper").load("Components/TopicContent/index.html");
+      });
+    </script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="components/AdsSection/index.css" />
+    <link rel="stylesheet" href="components/NavigationBar/index.css" />
+    <link rel="stylesheet" href="components/Slidebar/index.css" />
+    <link rel="stylesheet" href="components/TopicContent/index.css" />
+  </head>
+
+  <body>
+    <div id="slide-bar-wrapper" style="display: flex"></div>
+    <div class="main">
+      <div
+        id="navigation-bar-wrapper"
+        style="display: flex; width: 18%; padding-right: 20px"
+      ></div>
+      <div id="topic-content-wrapper" style="display: flex"></div>
+      <div
+        id="ads-section-wrapper"
+        style="display: flex; overflow: hidden; width: 30%; margin-left: 2%"
+      ></div>
+    </div>
+  </body>
+</html>
