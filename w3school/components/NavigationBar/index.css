@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  list-style-type: none;
   padding-top: 20px;
   padding-left: 10px;
   background-color: #e7e9eb;
@@ -24,11 +23,4 @@
 }
 .navigation-text:active {
   background-color: #04aa6d;
-}
-.navigationbutton {
-  display: flex;
-  justify-content: space-between;
-  cursor: pointer;
-  margin-bottom: 30px;
-  text-align: center;
 }
