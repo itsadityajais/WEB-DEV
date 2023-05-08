@@ -1,0 +1,26 @@
+.navigation-bar {
+  display: flex;
+  flex: 1;
+  height: 900px;
+  overflow-y: scroll;
+}
+.navigation-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10px;
+  background-color: #e7e9eb;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.navigation-text {
+  color: black;
+}
+.navigation-text:hover {
+  background-color: rgb(197, 197, 197);
+}
+.navigation-text:active {
+  background-color: #04aa6d;
+}
