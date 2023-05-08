@@ -14,9 +14,13 @@
   border-width: 0px;
   border-radius: 3px;
   height: 40px;
-  width: 90px;
+  padding-inline: 15px;
   font-size: 15px;
   font-weight: bold;
+  min-width: 100px;
+}
+.link-button:hover {
+  background-color: #068254;
 }
 
 .imp-box {
@@ -44,36 +48,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 2;
 }
-.green-button {
-  color: white;
-  background-color: #04aa6d;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border-width: 0px;
-  border-radius: 3px;
-  font-size: 15px;
-  margin-top: 20px;
-  font-weight: bold;
-}
-.green-button:hover {
-  background-color: #068254;
-}
 
-.black-button {
-  color: white;
-  background-color: black;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border-width: 0px;
-  border-radius: 5px;
-  margin-top: 15px;
-}
-.black-button:hover {
-  background-color: #415147;
-}
 .blue-button {
   color: white;
   background-color: #2196f3;
@@ -103,4 +78,9 @@
 }
 h3 {
   font-size: 25px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
