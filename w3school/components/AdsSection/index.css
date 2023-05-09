@@ -5,10 +5,7 @@
   align-items: center;
 }
 .promotion-image {
-  border-radius: 5px;
   display: flex;
-  width: auto;
-  padding-top: 30px;
-  margin: 10px;
-  border-radius: 10px;
+  margin-bottom: 50px;
+  border-radius: 3%;
 }
